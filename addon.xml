@@ -1,31 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon
-   id="plugin.video.ocw"
-   name="OpenCouseWare"
-   version="0.01"
-   provider-name="martinnl">
-  <requires>
-    <import addon="xbmc.python"                 version="2.1.0"/>
-    <import addon="xbmc.json"                   version="6.0.0"/>
-    <import addon="xbmc.addon"                  version="12.0.0"/>
-    <import addon="script.module.elementtree"   version="1.2.7"/>
-    <import addon="script.module.simplejson"    version="2.0.10" optional="true"/>
-    <import addon="script.common.plugin.cache"  version="1.3.0"/>
-  </requires>
-  <extension point="xbmc.python.script"         library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="login"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream lectures from several OCW sites.</summary>
-    <description lang="en">Stream lectures and keep track of what you have seen and how well you know the content.[CR]See readme file</description>
-    <disclaimer lang="en">For bugs, requests or general questions visit the OpenCouseWare thread on the XBMC forum.</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ocw" version="0.0.1" name="AA OCW" provider-name="martinnl">
+<requires>
+    <import addon="plugin.video.youtube" version="4.4.1" />
+</requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+    <language />
+<summary>Hello World</summary>
+<description>Simple program to say hello.</description>
+<platform>all</platform>
+</extension>
 </addon>
