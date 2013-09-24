@@ -1,0 +1,12 @@
+OpenCourseWare plugin for XBMC
+
+WORK IN PROGRESS! Feel free to look at the code but be aware that it probably won't work.
+
+This plugin will, eventually, be able to stream from all large open courseware sites and optionally those who require login as well.
+
+Sites
+-Academic Earth
+-MIT OCW
+-Yale OCW
+-NPTEL
+-Coursera
